@@ -1,57 +1,78 @@
 # Monolith
 
-Monolith is a minimal, monochrome Omarchy theme focused on clarity and consistency.  
-It avoids accent colors and semantic color meanings, using only contrast and luminance
-to express hierarchy across the system.
+Monolith is a minimal, monochrome Omarchy theme focused on contrast, spacing, and motion rather than color.
 
-The goal is a calm, distraction-free interface that stays out of the way.
+It uses a black and white palette with soft gray tones to create a calm, distraction-free environment suitable for daily use.
 
----
+No semantic colors. No visual noise.
 
 ## Installation
 
 ### Terminal
 
 ```bash
-omarchy-theme-install https://github.com/grvsnh/omarchy-monolith-theme.git
+omarchy-theme-install https://github.com/grvsnh/omarchy-monolith-theme
 ```
 
 ### Omarchy Menu
 
 1. Open Omarchy Menu (`Super + Alt + Space`)
-2. Go to `Install → Style → Theme`
+2. Go to Install → Style → Theme
 3. Paste the repository URL:
 
-```text
-https://github.com/grvsnh/omarchy-monolith-theme.git
+```
+https://github.com/grvsnh/omarchy-monolith-theme
 ```
 
----
-
-## What This Theme Covers
-
-Monolith applies a consistent monochrome style to:
+## Themed Components
 
 - Hyprland
 - Waybar
 - GTK (via Aether override)
-- Notifications
-- Launchers
-- Terminals
+- Notifications (mako)
+- Launchers (wofi, walker)
+- Terminals (kitty, ghostty, alacritty)
 - Neovim
-- VS Code (UI only)
+- VS Code (UI colors)
 - btop
 - cava
 - Superfile
 - Chromium / Brave
 - Discord (Vencord)
-- Lock screen
+- Hyprlock
 
----
+## Features
+
+- Thin borders and tight gaps
+- Expressive but controlled animations
+- Subtle window blur and opacity
+- Floating window mouse controls
+- Fully monochrome palette
+
+## Screenshots
+
+### Desktop
+
+![Desktop](preview.png)
+
+### Floating Window
+
+![Floating](preview-floating.png)
+
+### Editor
+
+![Editor](preview-editor.png)
 
 ## Notes
 
-- This is an early v1.0 release
-- No screenshots yet
-- No behavior or workflow overrides
-- Editor syntax highlighting is left to user preference
+- This theme does not override user keybindings
+- Clipboard behavior is left to user preference
+- Designed for maximum compatibility across Hyprland versions
+
+```
+
+```
+
+```
+
+```
