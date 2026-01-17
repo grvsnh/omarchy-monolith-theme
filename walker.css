@@ -1,0 +1,44 @@
+@define-color background #020202;
+@define-color foreground #d1cfcf;
+
+/* Structural neutrals */
+@define-color border alpha(@foreground, 0.15);
+@define-color surface alpha(@background, 0.85);
+@define-color subtle alpha(@foreground, 0.35);
+
+/* Selection */
+@define-color selection_bg alpha(@foreground, 0.12);
+@define-color selection_fg @foreground;
+
+window .box-wrapper {
+  border: 2px solid transparent;
+  border-radius: 18px;
+  background: @surface;
+}
+
+window .search-container,
+window .search {
+  background: alpha(@foreground, 0.06);
+  color: @foreground;
+  border: 2px solid @border;
+  border-radius: 10px;
+  padding: 2px 8px;
+  margin-top: 1px;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+child:selected {
+  background-color: @selection_bg;
+  border-radius: 10px;
+  transition: background-color 0.22s ease-in;
+}
+
+child:selected .item-box {
+  margin-left: 10px;
+  transition: margin-left 0.09s ease-in;
+}
+
+child:selected .item-box * {
+  color: @selection_fg;
+}

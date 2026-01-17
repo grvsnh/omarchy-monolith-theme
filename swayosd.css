@@ -1,0 +1,69 @@
+@define-color bg #020202;
+@define-color fg #d1cfcf;
+
+/* ─────────────────────────────────────────────
+   Window
+   ───────────────────────────────────────────── */
+
+window {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+}
+
+/* ─────────────────────────────────────────────
+   OSD Container
+   ───────────────────────────────────────────── */
+
+.osd,
+osd {
+  background-color: alpha(@bg, 0.55);
+  border: 1px solid alpha(@fg, 0.15);
+  border-radius: 6px;
+  padding: 12px 14px;
+  box-shadow: none;
+}
+
+/* ─────────────────────────────────────────────
+   Icon
+   ───────────────────────────────────────────── */
+
+image {
+  color: @fg;
+  -gtk-icon-size: 16px;
+  margin: 0 12px 0 0;
+}
+
+/* ─────────────────────────────────────────────
+   Label
+   ───────────────────────────────────────────── */
+
+label {
+  color: @fg;
+  font-size: 9px;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* ─────────────────────────────────────────────
+   Progress
+   ───────────────────────────────────────────── */
+
+progressbar {
+  min-width: 200px;
+  min-height: 5px;
+  margin-top: 8px;
+  border-radius: 999px;
+}
+
+progressbar trough {
+  background-color: alpha(@fg, 0.15);
+  border: none;
+  border-radius: 999px;
+}
+
+progressbar progress {
+  background-color: @fg;
+  border-radius: 999px;
+}

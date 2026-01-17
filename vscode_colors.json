@@ -1,0 +1,64 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Monolith",
+  "type": "dark",
+  "colors": {
+    /* Core */
+    "foreground": "#d1cfcf",
+    "disabledForeground": "#9a9a9a",
+
+    /* Backgrounds */
+    "editor.background": "#020202",
+    "sideBar.background": "#020202",
+    "activityBar.background": "#020202",
+    "panel.background": "#020202",
+    "statusBar.background": "#020202",
+    "titleBar.activeBackground": "#020202",
+    "titleBar.inactiveBackground": "#020202",
+
+    /* Text */
+    "editor.foreground": "#d1cfcf",
+    "sideBar.foreground": "#d1cfcf",
+    "activityBar.foreground": "#d1cfcf",
+    "statusBar.foreground": "#d1cfcf",
+    "titleBar.activeForeground": "#d1cfcf",
+    "titleBar.inactiveForeground": "#9a9a9a",
+
+    /* Selection & focus */
+    "editor.selectionBackground": "#262626",
+    "editor.inactiveSelectionBackground": "#1a1a1a",
+    "editor.lineHighlightBackground": "#1a1a1a",
+    "list.hoverBackground": "#1a1a1a",
+    "list.activeSelectionBackground": "#262626",
+    "list.inactiveSelectionBackground": "#1a1a1a",
+
+    /* Borders & separators */
+    "editorIndentGuide.background": "#262626",
+    "editorIndentGuide.activeBackground": "#3a3a3a",
+    "panel.border": "#262626",
+    "sideBar.border": "#262626",
+
+    /* Cursor */
+    "editorCursor.foreground": "#d1cfcf",
+
+    /* Minimap */
+    "minimap.background": "#020202",
+
+    /* Scrollbars */
+    "scrollbarSlider.background": "#26262680",
+    "scrollbarSlider.hoverBackground": "#3a3a3a80",
+    "scrollbarSlider.activeBackground": "#4a4a4a80",
+
+    /* Terminal (surface only) */
+    "terminal.background": "#020202",
+    "terminal.foreground": "#d1cfcf",
+
+    /* Notifications */
+    "notifications.background": "#020202",
+    "notifications.foreground": "#d1cfcf",
+
+    /* Quick input */
+    "quickInput.background": "#020202",
+    "quickInput.foreground": "#d1cfcf"
+  }
+}

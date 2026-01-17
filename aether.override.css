@@ -1,0 +1,54 @@
+/* ─────────────────────────────────────────────
+ * Omarchy Monolith — Aether Override
+ * GTK surface + text only
+ * ───────────────────────────────────────────── */
+
+@define-color background #020202;
+@define-color foreground #d1cfcf;
+
+/* Core GTK colors */
+@define-color theme_bg_color @background;
+@define-color theme_fg_color @foreground;
+@define-color theme_base_color @background;
+@define-color theme_text_color @foreground;
+
+/* Unfocused / insensitive */
+@define-color insensitive_bg_color alpha(@background, 0.5);
+@define-color insensitive_fg_color alpha(@foreground, 0.5);
+@define-color theme_unfocused_bg_color @background;
+@define-color theme_unfocused_fg_color alpha(@foreground, 0.7);
+
+/* Selection (monochrome, non-semantic) */
+@define-color theme_selected_bg_color alpha(@foreground, 0.12);
+@define-color theme_selected_fg_color @foreground;
+@define-color theme_unfocused_selected_bg_color alpha(@foreground, 0.08);
+@define-color theme_unfocused_selected_fg_color @foreground;
+
+/* Borders */
+@define-color borders alpha(@foreground, 0.15);
+
+/* Common surfaces */
+@define-color window_bg_color @background;
+@define-color window_fg_color @foreground;
+@define-color view_bg_color @background;
+@define-color view_fg_color @foreground;
+@define-color headerbar_bg_color alpha(@foreground, 0.04);
+@define-color headerbar_fg_color @foreground;
+@define-color headerbar_border_color alpha(@foreground, 0.15);
+
+/* Entries & buttons */
+@define-color entry_bg_color alpha(@foreground, 0.03);
+@define-color entry_fg_color @foreground;
+@define-color button_bg_color alpha(@foreground, 0.05);
+@define-color button_fg_color @foreground;
+
+/* Scrollbars */
+@define-color scrollbar_slider_color alpha(@foreground, 0.25);
+@define-color scrollbar_slider_hover_color alpha(@foreground, 0.4);
+
+/* Tooltips & popovers */
+@define-color tooltip_bg_color @background;
+@define-color tooltip_fg_color @foreground;
+@define-color tooltip_border_color alpha(@foreground, 0.15);
+@define-color popover_bg_color @background;
+@define-color popover_fg_color @foreground;

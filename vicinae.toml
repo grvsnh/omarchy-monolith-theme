@@ -1,0 +1,22 @@
+[meta]
+version = 1
+name = "Monolith"
+description = "Monochrome Omarchy theme focused on clarity and restraint."
+variant = "dark"
+inherits = "vicinae-dark"
+icon = "/home/grvsnh/.local/share/omarchy/icon.png"
+
+[colors.core]
+background = "#020202"
+foreground = "#d1cfcf"
+secondary_background = "#080808"
+border = "#262626"
+accent = "#d1cfcf"
+
+[colors.list.item.hover]
+background = "#0c0c0c"
+foreground = "#d1cfcf"
+
+[colors.list.item.selection]
+background = "#262626"
+foreground = "#d1cfcf"

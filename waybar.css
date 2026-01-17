@@ -1,0 +1,114 @@
+@define-color background #020202;
+@define-color foreground #d1cfcf;
+
+/* ─────────────────────────────────────────────
+   Global
+   ───────────────────────────────────────────── */
+
+* {
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", "JetBrainsMono Nerd Font", sans-serif;
+  font-size: 11px;
+}
+
+window#waybar {
+  background: @background;
+  color: @foreground;
+}
+
+/* ─────────────────────────────────────────────
+   Layout
+   ───────────────────────────────────────────── */
+
+.modules-left,
+.modules-center,
+.modules-right {
+  padding: 0 6px;
+}
+
+#workspaces,
+#clock,
+#tray,
+#pulseaudio,
+#network,
+#battery,
+#custom-weather {
+  padding: 0 6px;
+}
+
+/* ─────────────────────────────────────────────
+   Workspaces
+   ───────────────────────────────────────────── */
+
+#workspaces button {
+  background: transparent;
+  color: alpha(@foreground, 0.45);
+  padding: 0 4px;
+  margin: 0 2px;
+}
+
+#workspaces button.active {
+  color: @foreground;
+  font-weight: 600;
+}
+
+#workspaces button:hover {
+  background: transparent;
+  color: alpha(@foreground, 0.75);
+}
+
+/* ─────────────────────────────────────────────
+   Window title
+   ───────────────────────────────────────────── */
+
+#window {
+  color: alpha(@foreground, 0.75);
+  padding: 0 8px;
+}
+
+/* ─────────────────────────────────────────────
+   Clock
+   ───────────────────────────────────────────── */
+
+#clock {
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+/* ─────────────────────────────────────────────
+   System indicators
+   ───────────────────────────────────────────── */
+
+#pulseaudio,
+#network,
+#battery,
+#tray {
+  color: alpha(@foreground, 0.7);
+}
+
+#pulseaudio.muted {
+  color: alpha(@foreground, 0.35);
+}
+
+#battery.charging {
+  color: @foreground;
+}
+
+/* ─────────────────────────────────────────────
+   Tooltips
+   ───────────────────────────────────────────── */
+
+tooltip {
+  background: @background;
+  color: @foreground;
+  border-radius: 4px;
+  padding: 6px 8px;
+}
+
+tooltip label {
+  color: @foreground;
+}

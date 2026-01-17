@@ -1,0 +1,66 @@
+# ─────────────────────────────────────────────
+# Omarchy Monolith — btop
+# ─────────────────────────────────────────────
+
+# Core
+theme[main_bg]="#020202"
+theme[main_fg]="#d1cfcf"
+theme[inactive_fg]="#9a9a9a"
+
+# Titles & highlights
+theme[title]="#d1cfcf"
+theme[hi_fg]="#d1cfcf"
+
+# Selection
+theme[selected_bg]="#2a2a2a"
+theme[selected_fg]="#d1cfcf"
+
+# Boxes & dividers
+theme[cpu_box]="#2a2a2a"
+theme[mem_box]="#2a2a2a"
+theme[net_box]="#2a2a2a"
+theme[proc_box]="#2a2a2a"
+theme[div_line]="#2a2a2a"
+
+# Process misc
+theme[proc_misc]="#9a9a9a"
+
+# ─────────────────────────────────────────────
+# Monochrome gradients (luminance only)
+# ─────────────────────────────────────────────
+
+# Temperature
+theme[temp_start]="#6f6f6f"
+theme[temp_mid]="#a0a0a0"
+theme[temp_end]="#d1cfcf"
+
+# CPU
+theme[cpu_start]="#6f6f6f"
+theme[cpu_mid]="#a0a0a0"
+theme[cpu_end]="#d1cfcf"
+
+# Memory
+theme[free_start]="#6f6f6f"
+theme[free_mid]="#a0a0a0"
+theme[free_end]="#d1cfcf"
+
+theme[cached_start]="#6f6f6f"
+theme[cached_mid]="#a0a0a0"
+theme[cached_end]="#d1cfcf"
+
+theme[available_start]="#6f6f6f"
+theme[available_mid]="#a0a0a0"
+theme[available_end]="#d1cfcf"
+
+theme[used_start]="#6f6f6f"
+theme[used_mid]="#a0a0a0"
+theme[used_end]="#d1cfcf"
+
+# Network
+theme[download_start]="#6f6f6f"
+theme[download_mid]="#a0a0a0"
+theme[download_end]="#d1cfcf"
+
+theme[upload_start]="#6f6f6f"
+theme[upload_mid]="#a0a0a0"
+theme[upload_end]="#d1cfcf"

@@ -1,0 +1,61 @@
+@define-color bg #020202;
+@define-color fg #d1cfcf;
+
+/* ─────────────────────────────────────────────
+   Window
+   ───────────────────────────────────────────── */
+
+window {
+  background-color: @bg;
+  border: 1px solid alpha(@fg, 0.15);
+  border-radius: 6px;
+}
+
+/* ─────────────────────────────────────────────
+   Input
+   ───────────────────────────────────────────── */
+
+input {
+  background-color: @bg;
+  color: @fg;
+  border: none;
+  padding: 8px;
+}
+
+input:selected {
+  background-color: @bg;
+  color: @fg;
+}
+
+/* ─────────────────────────────────────────────
+   Entries
+   ───────────────────────────────────────────── */
+
+#entry {
+  background-color: transparent;
+  color: alpha(@fg, 0.65);
+  padding: 6px 8px;
+  margin: 2px 4px;
+}
+
+#entry:selected {
+  background-color: alpha(@fg, 0.08);
+  color: @fg;
+}
+
+/* ─────────────────────────────────────────────
+   Scrollbar
+   ───────────────────────────────────────────── */
+
+scrollbar {
+  background-color: transparent;
+}
+
+scrollbar slider {
+  background-color: alpha(@fg, 0.15);
+  border-radius: 999px;
+}
+
+scrollbar slider:hover {
+  background-color: alpha(@fg, 0.25);
+}

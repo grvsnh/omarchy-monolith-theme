@@ -1,0 +1,55 @@
+# ─────────────────────────────────────────────
+# Omarchy Monolith — superfile
+# ─────────────────────────────────────────────
+
+# ========= Border =========
+file_panel_border = '#262626'
+sidebar_border = '#262626'
+footer_border = '#262626'
+
+# ========= Border Active =========
+file_panel_border_active = '#d1cfcf'
+sidebar_border_active = '#d1cfcf'
+footer_border_active = '#d1cfcf'
+modal_border_active = '#d1cfcf'
+
+# ========= Background =========
+full_screen_bg = '#020202'
+file_panel_bg = '#020202'
+sidebar_bg = '#020202'
+footer_bg = '#020202'
+modal_bg = '#020202'
+
+# ========= Foreground =========
+full_screen_fg = '#d1cfcf'
+file_panel_fg = '#d1cfcf'
+sidebar_fg = '#d1cfcf'
+footer_fg = '#d1cfcf'
+modal_fg = '#d1cfcf'
+
+# ========= Cursor & State =========
+cursor = '#d1cfcf'
+correct = '#d1cfcf'
+error = '#d1cfcf'
+hint = '#9a9a9a'
+cancel = '#9a9a9a'
+
+gradient_color = ['#020202', '#6e6e6e']
+
+# ========= File Panel =========
+file_panel_top_directory_icon = '#6e6e6e'
+file_panel_top_path = '#9a9a9a'
+file_panel_item_selected_fg = '#d1cfcf'
+file_panel_item_selected_bg = '#262626'
+
+# ========= Sidebar =========
+sidebar_title = '#d1cfcf'
+sidebar_item_selected_fg = '#d1cfcf'
+sidebar_item_selected_bg = '#262626'
+sidebar_divider = '#262626'
+
+# ========= Modal =========
+modal_cancel_fg = '#020202'
+modal_cancel_bg = '#9a9a9a'
+modal_confirm_fg = '#020202'
+modal_confirm_bg = '#d1cfcf'

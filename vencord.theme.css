@@ -1,0 +1,33 @@
+/**
+ * @name Monolith
+ * @author @bypass_
+ * @version 1.0.0
+ * @description Monochrome Omarchy theme for Vencord / Discord.
+ * @source https://github.com/imbypass/base16-Discord
+ */
+
+@import url("https://imbypass.github.io/base16-discord/omarchy-discord.theme.css");
+
+:root {
+  /* Core */
+  --color00: #020202;
+  --color01: #020202;
+  --color02: #262626;
+  --color03: #6e6e6e;
+
+  /* Foreground */
+  --color04: #9a9a9a;
+  --color05: #d1cfcf;
+  --color06: #e0e0e0;
+  --color07: #ffffff;
+
+  /* Accents (grayscale hierarchy only) */
+  --color08: #b0b0b0;
+  --color09: #bcbcbc;
+  --color10: #c8c8c8;
+  --color11: #b8b8b8;
+  --color12: #a8a8a8;
+  --color13: #d1cfcf;
+  --color14: #dcdcdc;
+  --color15: #9a9a9a;
+}
